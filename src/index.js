@@ -13,7 +13,7 @@ function Jumbo() {
     <group ref={ref}>
       <Text hAlign="left" position={[0, 4.2, 0]} children="ORN" />
       <Text hAlign="left" position={[0, 0, 0]} children="FORLAG" />
-      <Text hAlign="left" position={[0, -4.2, 0]} children="VARMOGNATURLIG" size={0.5} />
+      <Text hAlign="left" position={[0, -4.2, 0]} children="STYLEGUIDE" size={0.5} />
       <Text hAlign="left" position={[12, 0, 0]} children="4" size={3} />
       <Text hAlign="left" position={[16.5, -4.2, 0]} children="U" />
     </group>
