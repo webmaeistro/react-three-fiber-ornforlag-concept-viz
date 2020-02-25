@@ -14,7 +14,7 @@ function Jumbo() {
       <Text hAlign="left" position={[0, 4.2, 0]} children="THNX" />
       <Text hAlign="left" position={[0, 0, 0]} children="INNOCODE" />
       <Text hAlign="left" position={[0, -4.2, 0]} children="OPPKORT" size={0.5} />
-      <Text hAlign="left" position={[12, 0, 0]} children="4" size={3} />
+      <Text hAlign="left" position={[12, 0, 0]} children="4" size={1} />
       <Text hAlign="right" position={[16.5, -4.2, 0]} children="WORKSHOP" />
     </group>
   )
