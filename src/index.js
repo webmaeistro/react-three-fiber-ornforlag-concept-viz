@@ -11,11 +11,11 @@ function Jumbo() {
   useFrame(({ clock }) => (ref.current.rotation.x = ref.current.rotation.y = ref.current.rotation.z = Math.sin(clock.getElapsedTime()) * 0.3))
   return (
     <group ref={ref}>
-      <Text hAlign="left" position={[0, 4.2, 0]} children="ORN" />
-      <Text hAlign="left" position={[0, 0, 0]} children="FORLAG" />
-      <Text hAlign="left" position={[0, -4.2, 0]} children="STYLEGUIDE" size={0.5} />
-      <Text hAlign="left" position={[12, 0, 0]} children="4" size={3} />
-      <Text hAlign="left" position={[16.5, -4.2, 0]} children="U" />
+      <Text hAlign="left" position={[0, 4.2, 0]} children="THNX" />
+      <Text hAlign="left" position={[0, 0, 0]} children="INNOCODE" />
+      <Text hAlign="left" position={[0, -4.2, 0]} children="WORKSHOP" size={0.5} />
+      <Text hAlign="left" position={[12, 0, 0]} children="4" size={2} />
+      <Text hAlign="right" position={[16.5, -4.2, 0]} children="OPPKORT" />
     </group>
   )
 }
